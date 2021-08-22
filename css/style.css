@@ -177,4 +177,9 @@ body {
     .detail .jumbotron {
         height: auto;
     }
+
+    .effect-2 {
+        bottom: -40px;
+        right: 40px;
+    }
 }
