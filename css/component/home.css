@@ -1,0 +1,24 @@
+.home .jumbotron {
+    background-color: #003F5E;
+    border-radius: 0;
+    height: 100vh;
+    color: #ffffff;
+    padding: 0;
+    margin: 0;
+}
+
+.home h1,
+.home p {
+    position: relative;
+    z-index: 2;
+}
+
+.home .title {
+    font-weight: 600;
+}
+
+.home .img-banner {
+    position: relative;
+    width: 100%;
+    z-index: 2;
+}

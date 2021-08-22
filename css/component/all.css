@@ -1,0 +1,86 @@
+.allportofolio .jumbotron {
+    background-color: #F3F7F6;
+    border-radius: 0;
+    height: auto;
+    color: #02344d;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.allportofolio .text p {
+    color: #d1d0d0;
+    padding: 1px;
+    margin: 0;
+}
+
+.love {
+    position: absolute;
+    top: 7px;
+    left: 10px;
+    color: #E59799;
+    font-size: 15px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.love:hover {
+    transform: scale(1.1);
+}
+
+.allportofolio .text h2 {
+    color: #02344d;
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+.allportofolio .card {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    margin-bottom: 20px;
+}
+
+.allportofolio .card h5 {
+    font-size: 15px;
+}
+
+.allportofolio .input-search {
+    border-radius: 15px 0 0 15px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border: none;
+    padding: 20px;
+}
+
+.allportofolio .btn-search {
+    background-color: #02344d;
+    border-radius: 15px;
+    color: #fff;
+}
+
+.allportofolio .card .blue {
+    background-color: #003F5E;
+    padding: 8px;
+    font-size: 13px;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+.allportofolio .btn-search:hover {
+    color: #FDE800;
+}
+
+.allportofolio .show {
+    border-radius: 5px;
+    border: 2px solid #02344d;
+    margin-top: 25px;
+    background-color: transparent;
+    padding: 10px;
+    color: #02344d;
+    transition: all 0.5s ease-in-out;
+}
+
+.allportofolio .show:hover {
+    transform: scale(1.1);
+}

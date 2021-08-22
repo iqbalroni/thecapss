@@ -1,0 +1,26 @@
+.detail .jumbotron {
+    background-color: #F3F7F6;
+    border-radius: 0;
+    height: 100vh;
+    color: #02344d;
+    padding: 0;
+    margin: 0;
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.detail .box-detail {
+    background-color: #ffffff;
+    padding: 20px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    border-radius: 15px;
+}
+
+.detail h3 {
+    font-weight: 600;
+}
+
+.detail p {
+    padding: 0;
+    margin-top: 8px;
+}

@@ -1,0 +1,180 @@
+@import url(component/navbar.css);
+@import url(component/home.css);
+@import url(component/portofolio.css);
+@import url(component/footer.css);
+@import url(component/all.css);
+@import url(component/detail.css);
+
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans+JP&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Noto Sans JP', sans-serif;
+    scroll-behavior: smooth;
+}
+
+.effect-wrap .effect {
+    position: absolute;
+    z-index: 1;
+}
+
+.effect-1 {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    background-color: #00506B;
+    right: 15%;
+    top: 15%;
+    animation: samping 5s linear infinite;
+}
+
+.effect-2 {
+    height: 250px;
+    width: 250px;
+    border-radius: 50%;
+    border: 30px solid #00506B;
+    bottom: -40px;
+    right: -40px;
+    animation: pantul 3s linear infinite;
+}
+
+.effect-4 {
+    width: 70px;
+    display: flex;
+    flex-wrap: wrap;
+    top: 50%;
+    left: 2%;
+    animation: pantul 5s linear infinite;
+    justify-content: space-between;
+}
+
+.effect-4 div {
+    border-radius: 50%;
+    width: 10px;
+    height: 10px;
+    background-color: #00506B;
+    margin: 0 3px 8px;
+}
+
+@keyframes samping {
+
+    0%,
+    100% {
+        transform: translateX(-25px);
+    }
+
+    50% {
+        transform: translateX(25px);
+    }
+}
+
+@keyframes pantul {
+
+    0%,
+    100% {
+        transform: translateY(-25px);
+    }
+
+    50% {
+        transform: translateY(25px);
+    }
+}
+
+body {
+    overflow-x: hidden;
+    background-color: #003F5E;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: #02344d;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #FDE800;
+    border-radius: 15px;
+}
+
+.yellow {
+    position: relative;
+    z-index: 2;
+    background-color: #FDE800;
+    padding: 10px;
+    border-radius: 5px;
+    width: 40%;
+    color: #003F5E;
+}
+
+.blue {
+    background-color: #003F5E;
+    padding: 10px;
+    border-radius: 5px;
+    color: #ffffff;
+    transition: all 0.5s ease-in-out;
+}
+
+.blue-transparent {
+    border: 2px solid #003F5E;
+    background-color: transparent;
+    padding: 10px;
+    border-radius: 5px;
+    color: #003F5E;
+    transition: all 0.5s ease-in-out;
+}
+
+.blue-transparent:hover {
+    transform: scale(1.1);
+}
+
+.blue:hover {
+    transform: scale(1.1);
+    color: #ffffff;
+}
+
+@media only screen and (max-width: 700px) {
+    .icon {
+        margin-bottom: 10px;
+    }
+
+    .login {
+        margin-bottom: 10px;
+    }
+
+    .home .jumbotron {
+        height: auto;
+        padding-top: 80px;
+        padding-bottom: 40px;
+    }
+
+    .portofolio .jumbotron {
+        height: auto;
+        padding-top: 40px;
+        padding-bottom: 40px;
+    }
+
+    .portofolio .jumbotron .container {
+        width: 90%;
+    }
+
+    .allportofolio .jumbotron .container {
+        width: 90%;
+    }
+
+    .allportofolio .col-sm-2 {
+        width: 50%;
+    }
+
+    .detail .example {
+        width: 33.3%;
+    }
+
+    .detail h3 {
+        margin-top: 30px;
+    }
+
+    .detail .jumbotron {
+        height: auto;
+    }
+}

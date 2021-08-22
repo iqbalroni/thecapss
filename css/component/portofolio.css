@@ -1,0 +1,55 @@
+.portofolio .jumbotron {
+    z-index: 2;
+    position: relative;
+    background-color: #F3F7F6;
+    border-radius: 0;
+    height: 100vh;
+    color: #02344d;
+    padding: 0;
+    margin: 0;
+}
+
+.portofolio .text p {
+    color: #d1d0d0;
+    padding: 1px;
+    margin: 0;
+}
+
+.love {
+    position: absolute;
+    top: 10px;
+    left: 15px;
+    color: #E59799;
+    font-size: 20px;
+    cursor: pointer;
+    transition: all 0.5s ease-in-out;
+}
+
+.love:hover {
+    transform: scale(1.1);
+}
+
+.portofolio .text h2 {
+    color: #02344d;
+    font-weight: 600;
+    font-size: 2.2em;
+}
+
+.portofolio .card {
+    border: none;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+}
+
+.portofolio .show {
+    border-radius: 5px;
+    border: 2px solid #02344d;
+    margin-top: 25px;
+    background-color: transparent;
+    padding: 10px;
+    color: #02344d;
+    transition: all 0.5s ease-in-out;
+}
+
+.portofolio .show:hover {
+    transform: scale(1.1);
+}
